@@ -1,0 +1,52 @@
+h3 {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main > .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.monoteam {
+    background: rgb(221,22,242);
+    background: linear-gradient(45deg, rgba(221,22,242,1) 0%, rgba(43,210,174,1) 100%);
+    transform: translateX(-200%);
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    z-index: 0;
+}
+
+.monoteam h2, .monobot h2 {
+    color: #ffffff;
+    transform: translateY(-90%);
+}
+
+.monoteam a:hover, .monobot a:hover {
+    text-decoration: none;
+}
+
+.monobot {
+    background-color: #383738;
+    transform: translateX(200%);
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    z-index: 0;
+}
+
+main img {
+    width: 100%;
+}
+
+header, main > .container {
+    z-index: 100;
+}

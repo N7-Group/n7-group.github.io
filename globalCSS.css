@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;600;700&family=Montserrat:wght@100;400;500;600;700&display=swap');
+
+* {
+    font-family: "Lato", sans-serif; 
+}
+
+html, body {
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
+}
+
+nav {
+    background-color: #21212100;
+    transition: background 250ms;
+    padding: 8px;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.nav-fixed {
+    background-color: #212121ff;
+    color: #ffffff;
+}
+
+nav img {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+nav > div {
+    font-weight: 300;
+    color: #212121;
+}
+
+nav a, nav i {
+    color: #212121;
+    transition: color 250ms;
+}
+
+.nav-fixed a, .nav-fixed i {
+    color: #ffffff;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.search-trigger {
+    cursor: pointer;
+}
+
+.header {
+    padding: 30px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: #78ece3
+}
+
+.header .container {
+    max-width: 500px;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 2s;
+}
