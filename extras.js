@@ -3,10 +3,10 @@ $(document).ready(() => {
         $("nav").addClass(["fixed-top", "d-flex", "justify-content-between"]);
         $("nav").html(`
 <div class="brand">
-    <a href="https://monoteam-nx.github.io">
+    <a href="https://teamspettro.github.io">
         <div class="d-flex">
-            <img src="https://monoteam-nx.github.io/img/MonoBot Transparent.png">
-            <div class="align-self-center">Monoteam</div>
+            <img src="https://teamspettro.github.io/img/MonoBot Transparent.png">
+            <div class="align-self-center">Team Spettro</div>
         </div>
     </a>
 </div>
