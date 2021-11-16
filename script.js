@@ -1,3 +1,4 @@
+//I'm guessing these are animations
 $(document).ready(() => {
     $(".header h1").css("opacity", "1");
     setTimeout(() => $("h3").css("opacity", "1"), 500);
