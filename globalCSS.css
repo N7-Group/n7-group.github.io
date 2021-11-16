@@ -49,15 +49,11 @@ nav a:hover {
     text-decoration: none;
 }
 
-.search-trigger {
-    cursor: pointer;
-}
-
 .header {
     padding: 30px;
     padding-bottom: 120px;
     padding-top: 120px;
-    background-color: #78ece3
+    background-color: #3b3b3b
 }
 
 .header .container {

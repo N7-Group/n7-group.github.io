@@ -35,7 +35,7 @@ h3 {
 }
 
 .spettro {
-    background: rgb(0, 0, 0);
+    background: rgb(51, 51, 51);
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(27, 27, 27) 100%);
     transform: translateX(-200%);
 }
