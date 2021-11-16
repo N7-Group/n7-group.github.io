@@ -5,7 +5,7 @@ $(document).ready(() => {
 <div class="brand">
     <a href="https://teamspettro.github.io">
         <div class="d-flex">
-            <img src="https://teamspettro.github.io/img/MonoBot Transparent.png">
+            <img src="https://teamspettro.github.io/img/SpettroGTransparent.png">
             <div class="align-self-center">Team Spettro</div>
         </div>
     </a>
