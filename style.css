@@ -17,7 +17,7 @@ h3 {
     font-weight: 700;
 }
 
-.monoteam, .monobot {
+.spettro, .monobot {
     opacity: 0;
     transition: transform 2s, opacity 2s;
     z-index: 0;
@@ -25,16 +25,16 @@ h3 {
     padding: 30px;
 }
 
-.monoteam h2, .monobot h2 {
+.spettro h2, .monobot h2 {
     color: #ffffff;
     transform: translateY(-90%);
 }
 
-.monoteam a:hover, .monobot a:hover {
+.spettro a:hover, .monobot a:hover {
     text-decoration: none;
 }
 
-.monoteam {
+.spettro {
     background: rgb(221,22,242);
     background: linear-gradient(45deg, rgba(221,22,242,1) 0%, rgba(43,210,174,1) 100%);
     transform: translateX(-200%);
