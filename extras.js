@@ -5,15 +5,11 @@ $(document).ready(() => {
 <div class="brand">
     <a href="https://teamspettro.github.io">
         <div class="d-flex">
-            <img src="https://teamspettro.github.io/img/SpettroGTransparent.png">
-            <div class="align-self-center">Team Spettro</div>
+            <img src="https://teamspettro.github.io/img/logo.png">
+            <div style="color: #ffffff;" class="align-self-center">Team Spettro </div>
+            <div style="color: #ffffff72;" class="align-self-center">- Website still W.I.P</div>
         </div>
     </a>
-</div>
-<div class="search d-flex">
-    <div class="align-self-center">
-        <i class="search-trigger fas fa-search"></i>
-    </div>
 </div>`);
     $(".search-trigger").on("click", () => {
         console.log("search init")
