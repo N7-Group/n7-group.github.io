@@ -18,6 +18,32 @@ h1, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
 .container-fluid
 {
 }
+.aspectwrapper {
+    display: inline-block;
+    /* shrink to fit */
+    width: 100%;
+    /* whatever width you like */
+    position: relative;
+    /* so .content can use position: absolute */
+}
+
+.aspectwrapper::after {
+    padding-top: 56.25%;
+    /* percentage of containing block _width_ */
+    display: block;
+    content: '';
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* follow the parent's edges */
+    outline: thin dashed green;
+    /* just so you can see the box */
+}
 .container-styled
 { 
     background: #f7f7f7;
@@ -53,6 +79,7 @@ b{
     color: white;
     font-weight: 600;
     SCALE: none;
+    padding: 5px;
 }
 
 nav {
@@ -89,7 +116,7 @@ nav a, nav i {
 }
 
 nav a:hover {
-    text-decoration: none;
+    text-decoration:dotted;
 }
 
 /* Colored Header in main page info. */
@@ -102,6 +129,7 @@ nav a:hover {
 
 .header .container .container-styleless {
     max-width: 1200px;
+    max-height: 600px;
 }
 hr{
     transform: translateY(100);

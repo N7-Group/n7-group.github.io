@@ -23,6 +23,9 @@ h3 {
     z-index: 0;
     background-clip: padding-box!important;
     padding: 30px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-view{
@@ -31,7 +34,15 @@ h3 {
     z-index: 0;
     background-clip: content-box!important;
     padding: 50px;
+    display: flex;
+  justify-content: center;
 }
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 .monospace h2 {
     color: #1e1e1e;
     font-weight: 700;
