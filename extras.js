@@ -12,7 +12,7 @@ $(document).ready(() => {
     <meta property="article:section" content="Home">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Team Spettro">
-    <meta name="twitter:description" content="Creators of Project Polychrome">
+    <meta name="twitter:description" content="Creators of Mono-Space">
     <meta name="twitter:domain" content="teamspettro.github.io">
     <meta name="theme-color" content="#f2f2f2">`);
 
