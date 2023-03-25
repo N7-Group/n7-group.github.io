@@ -37,4 +37,4 @@ $(document).ready(() => {
     }
 });
 
-$(window).scroll(() =>  $("nav").addClass("nav-fixed"))
+$(window).scroll(() => !$(window).scrollTop() ? $("nav").removeClass("nav-fixed") : $("nav").addClass("nav-fixed"))
