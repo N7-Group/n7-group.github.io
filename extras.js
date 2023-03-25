@@ -17,7 +17,7 @@ $(document).ready(() => {
     <meta name="theme-color" content="#f2f2f2">`);
 
     if (!$(".navbar").length && $("nav").length) {
-        $("nav").addClass(["fixed-top", "d-flex", "justify-content-between"]);
+        $("nav").addClass(["fixed-top", "d-flex", "justify-content-between","nav-fixed"]);
         $("nav").html(`
 <div class="brand">
     <a href="https://teamspettro.github.io">
@@ -28,6 +28,7 @@ $(document).ready(() => {
         </div>
     </a>
 </div>`);
+
     $(".search-trigger").on("click", () => {
         console.log("search init")
     })
@@ -37,4 +38,4 @@ $(document).ready(() => {
     }
 });
 
-$(window).scroll(() => !$(window).scrollTop() ? $("nav").removeClass("nav-fixed") : $("nav").addClass("nav-fixed"))
+// $(window).scroll(() => !$(window).scrollTop() ? $("nav").removeClass("nav-fixed") : $("nav").addClass("nav-fixed"))
