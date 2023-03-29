@@ -23,8 +23,8 @@ $(document).ready(() => {
     <a href="https://teamspettro.github.io">
         <div class="d-flex">
             <img src="https://teamspettro.github.io/img/logo.png">
-            <div style="color: #ffffff;" class="align-self-center">Team Spettro </div>
-            <div style="color: #ffffff72; padding: 0px 5px 0px" class="align-self-center"> Website still W.I.P</div>
+            <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>
+            <div style="color: #ffffff72; font-family: Raleway; padding: 0px 5px 0px" class="align-self-center"> Website still W.I.P</div>
         </div>
     </a>
 </div>`);
