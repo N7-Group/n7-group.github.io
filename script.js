@@ -1,4 +1,4 @@
-//I'm guessing these are animations
+//Animations
 $(document).ready(() => {
     $(".header h1").css("opacity", "1");
     $(".header h1").css("color", "#ffffff");

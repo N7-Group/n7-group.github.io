@@ -6,18 +6,27 @@
     font-weight: 100;
 }
 
-html, body {
+html,
+body {
     min-height: 100%;
 }
 
-h1, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+h1,
+h3,
+h4,
+h5,
+h6,
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
     font-family: "Raleway", sans-serif;
     color: #212121ff;
     text-justify: auto;
 }
-.container-fluid
-{
-}
+
 .aspectwrapper {
     display: inline-block;
     /* shrink to fit */
@@ -44,50 +53,23 @@ h1, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
     outline: thin dashed green;
     /* just so you can see the box */
 }
-.container-styled
-{ 
-    background: #f7f7f7;
-    
-    box-shadow: inset 0 1px 5px #00000020, 0 1px #ffffff20;
+
+.container-fluid,
+.container:nth-child(1n) {
+    background: linear-gradient(#e0e0e050, #efefef50 50%, #dcdcdc50 50%, #d2d2d250);
+
+    box-shadow: inset 0 1px 5px #00000050, 0 1px #fff3;
     color: #ffffff;
     padding: 30px;
 
 }
-.container-fluid, .container:nth-child(1n){
-    background: linear-gradient(#e0e0e050, #efefef50 50%, #dcdcdc50 50%, #d2d2d250);
-    
-    box-shadow: inset 0 1px 5px #00000050, 0 1px #fff3;
-    color: #ffffff;
-    padding: 30px;
-    
-}
+
 .imtip {
     position: absolute;
     bottom: 0;
     right: 0;
-  }
-  p{
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    color: #212121;
-    justify-content: left;
-    font-weight: 500;
-  }
-h2{
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    color: #212121;
-    text-align: center;
-    justify-content: left;
-    font-weight: 500;
 }
-b{
-    background-color: #1e1e1e;
-    color: white;
-    font-weight: 600;
-    SCALE: none;
-    padding: 5px;
-}
+
 
 nav {
     background-color: #21212100;
@@ -108,22 +90,24 @@ nav img {
     margin-right: 10px;
 }
 
-nav > div {
+nav>div {
     font-weight: 300;
     color: #212121;
 }
 
-nav a, nav i {
+nav a,
+nav i {
     color: #212121;
     transition: color 250ms;
 }
 
-.nav-fixed a, .nav-fixed i {
+.nav-fixed a,
+.nav-fixed i {
     color: #ffffff;
 }
 
 nav a:hover {
-    text-decoration:dotted;
+    text-decoration: dotted;
 }
 
 /* Colored Header in main page info. */
@@ -138,14 +122,7 @@ nav a:hover {
     max-width: 1200px;
     max-height: 600px;
 }
-hr{
+
+hr {
     transform: translateY(100);
 }
-.header h1 {
-    font-size: 80px;
-    font-weight: 700;
-    opacity: 0;
-    transition: opacity 2s;
-    color: #ffffff;
-}
-/* HeaderInfo ^ */

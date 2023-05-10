@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 
-main > .container {
+main>.container {
     margin-top: 50px;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -16,53 +16,61 @@ main > .container {
 h3 {
     font-weight: 700;
 }
+
 /* Sets the variables up(?) */
-.monospace, .text-ms {
+.monospace,
+.text-ms {
     opacity: 0;
     transition: transform 2s, opacity 2s;
     z-index: 0;
-    background-clip: padding-box!important;
+    background-clip: padding-box !important;
     padding: 30px;
     display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.image-view{
+.image-view {
     opacity: 0;
     transition: transform 2s, opacity 2s;
     z-index: 0;
-    background-clip: content-box!important;
+    background-clip: content-box !important;
     padding: 50px;
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
+}
+
 .monospace h2 {
     color: #1e1e1e;
     font-weight: 700;
     transform: translateY(50%);
     text-align: center;
 }
-.text-ms h1{
+
+.text-ms h1 {
     color: #1e1e1e;
     font-weight: 700;
     transform: translateY(50%);
     text-align: left;
     font-size: 55px;
 }
-.text-ms h2{
+
+.text-ms h2 {
     color: #1e1e1e;
     font-weight: 500;
     transform: translateY(50%);
     text-align: left;
 }
-.monospace h3, .text-ms h3 {
+
+.monospace h3,
+.text-ms h3 {
     color: #1e1e1e;
     font-size: 25px;
     transform: translateY(5%);
@@ -71,20 +79,21 @@ h3 {
     text-align: center;
 }
 
-.monospace a:hover, .text-ms a:hover {
+.monospace a:hover,
+.text-ms a:hover {
     background: linear-gradient(180deg, #0000 0%, #cfd0d2 100%);
     text-decoration: none;
 }
 
 /* monospace button in the main page. */
-.monospace{
+.monospace {
 
-    background: linear-gradient(180deg, #ebebebd1 0%, #cfd0d2 100%);
-    border: solid 1px #c3c4c4;
-    border-radius: 20px;
+    background: radial-gradient(#ebebebd1 0%, #cfd0d2 100%);
+    border: solid 1px #1e1e1e;
     /* transform: translateX(-200%); */
 }
-.text-ms{
+
+.text-ms {
     opacity: 0;
     /* transform: translateX(-200%); */
 }
@@ -94,7 +103,8 @@ main img {
     object-fit: contain;
 }
 
-header, main > .container {
+header,
+main>.container {
     z-index: 100;
 }
 
@@ -103,21 +113,63 @@ div.gallery {
     border: 1px solid #ccc;
     display: inline-block;
     width: 500px;
-  }
-  
-  div.gallery:hover {
+}
+
+div.gallery:hover {
     border: 1px solid rgb(199, 199, 199);
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 12px;
     text-align: center;
     color: black;
-  }
+}
 
-  
+.container-styled {
+    background: #f7f7f7;
+
+    box-shadow: inset 0 1px 5px #00000020, 0 1px #ffffff20;
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+p {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    color: #212121;
+    justify-content: left;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    color: #212121;
+    text-align: center;
+    justify-content: left;
+    font-weight: 500;
+}
+
+b {
+    background-color: #1e1e1e;
+    color: white;
+    font-weight: 600;
+    SCALE: none;
+    padding: 5px;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 2s;
+    color: #ffffff;
+}
+
+/* HeaderInfo ^ */
