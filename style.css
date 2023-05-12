@@ -37,6 +37,8 @@ h3 {
     background-clip: content-box !important;
     padding: 50px;
     display: flex;
+    max-width: 100%;
+    height: auto;
     justify-content: center;
 }
 
