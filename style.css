@@ -16,7 +16,11 @@ main>.container {
 h3 {
     font-weight: 700;
 }
-
+.white
+{
+    
+    color: #212121ff;
+}
 /* Sets the variables up(?) */
 .monospace,
 .text-ms {
@@ -159,7 +163,7 @@ h2 {
 }
 
 b {
-    background-color: #1e1e1e;
+    background-color: #8b8b8b;
     color: white;
     font-weight: 600;
     SCALE: none;
