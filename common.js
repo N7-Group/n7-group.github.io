@@ -17,17 +17,37 @@ $(document).ready(() => {
     <meta name="theme-color" content="#f2f2f2">`);
 
     if (!$(".navbar").length && $("nav").length) {
-        $("nav").addClass(["fixed-top", "d-flex", "justify-content-between","nav-fixed"]);
+        $("nav").addClass(["fixed-top", "d-flex", "nav-fixed"]);
         $("nav").html(`
 <div class="brand">
     <a href="https://teamspettro.github.io">
         <div class="d-flex">
             <img src="https://teamspettro.github.io/img/logo.png">
-            <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>
-            <div style="color: #ffffff72; font-family: Raleway; padding: 0px 5px 0px" class="align-self-center"> Website still W.I.P</div>
+            <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>            
         </div>
     </a>
+</div>
+<div class="vr" style="width: 10px; z-index:10;"></div>
+<div class="separator"></div>
+<div class="vr" style="width: 10px; z-index:10;"></div>
+<div class="brand">
+    <a href="/blog">
+        <div class="d-flex">
+        <div style="color: #ffffff72; font-family: Raleway; padding: 5px 0px 0px" class="align-self-center">Blog</div>      
+        </div>
+    </a>
+    <div class="vr" style="width: 10px; z-index:10;"></div>
+</div>
+<div class="vr" style="width: 10px; z-index:10;"></div>
+<div class="brand">
+    <a href="/contact">
+        <div class="d-flex">
+        <div style="color: #ffffff72; font-family: Raleway; padding: 5px 0px 0px" class="align-self-center">Contact</div>      
+        </div>
+    </a>
+    <div class="vr" style="width: 10px; z-index:10;"></div>
 </div>`);
+
 
     $(".search-trigger").on("click", () => {
         console.log("search init")
@@ -39,3 +59,4 @@ $(document).ready(() => {
 });
 
 // $(window).scroll(() => !$(window).scrollTop() ? $("nav").removeClass("nav-fixed") : $("nav").addClass("nav-fixed"))
+//

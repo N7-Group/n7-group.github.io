@@ -12,7 +12,7 @@ if ! command -v http-server &>/dev/null; then
 fi
 
 echo "Starting server..."
-http-server
+http-server -c
 
 # On Linux, the "pause" command is not needed, as the server runs until interrupted.
 
