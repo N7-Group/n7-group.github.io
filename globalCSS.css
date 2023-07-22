@@ -26,7 +26,11 @@ h6 * {
     color: #212121ff;
     text-justify: auto;
 }
-
+.square:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* initial ratio of 1:1*/
+}
 .aspectwrapper {
     display: inline-block;
     /* shrink to fit */
