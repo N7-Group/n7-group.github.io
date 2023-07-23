@@ -48,6 +48,7 @@ h3 {
     align-items: center;
 }
 
+
 .image-view {
     opacity: 0;
     transition: transform 2s, opacity 2s;
@@ -110,7 +111,16 @@ h3 {
 
     background: radial-gradient(#ebebebd1 0%, #cfd0d2 100%);
     border: solid 1px #1e1e1e;
+    transition: background-color 0.2s ease;
     /* transform: translateX(-200%); */
+}
+
+.monospace:hover
+{
+    background-color: rgb(30, 129, 195);
+    border: solid 1px rgb(0, 153, 255);
+    scale: 120%;
+    transition: background-color 0.2s ease, border 0.2s ease;
 }
 
 .text-ms {

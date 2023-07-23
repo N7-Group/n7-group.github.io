@@ -20,7 +20,7 @@ $(document).ready(() => {
         $("nav").addClass(["fixed-top", "d-flex", "nav-fixed"]);
         $("nav").html(`
 <div class="brand">
-    <a href="https://teamspettro.github.io">
+    <a href="/">
         <div class="d-flex">
             <img src="https://teamspettro.github.io/img/logo.png">
             <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>            
