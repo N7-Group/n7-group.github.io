@@ -21,6 +21,36 @@ h3 {
     
     color: #212121ff;
 }
+.topbar-item
+{
+    color: #ffffff72; 
+    font-family: Raleway;
+    padding: 5px 0px 0px;
+    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;
+}
+.topbar-item:hover
+{
+    color: #00bbff72; 
+    font-weight: 500;
+    scale: 105%;
+    padding: 5px 3px 0px;
+    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;
+    text-shadow:1px 1px 10px #00bbff72;
+}
+.topbar-item:active
+{ 
+    color: #00bbffff; 
+    font-weight: 500;
+    scale: 95%;
+    animation: blinker 0.05s linear infinite;
+    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;   
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 .separator
 {
     background-color: white;

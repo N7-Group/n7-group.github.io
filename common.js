@@ -22,7 +22,7 @@ $(document).ready(() => {
 <div class="brand">
     <a href="/">
         <div class="d-flex">
-            <img src="https://teamspettro.github.io/img/logo.png">
+        <img src="https://teamspettro.github.io/img/logo.png" style="width:40px; height:40px">
             <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>            
         </div>
     </a>
@@ -33,7 +33,7 @@ $(document).ready(() => {
 <div class="brand">
     <a href="/blog">
         <div class="d-flex">
-        <div style="color: #ffffff72; font-family: Raleway; padding: 5px 0px 0px" class="align-self-center">Blog</div>      
+        <div class="topbar-item">Blog</div>      
         </div>
     </a>
     <div class="vr" style="width: 10px; z-index:10;"></div>
@@ -42,7 +42,7 @@ $(document).ready(() => {
 <div class="brand">
     <a href="/contact">
         <div class="d-flex">
-        <div style="color: #ffffff72; font-family: Raleway; padding: 5px 0px 0px" class="align-self-center">Contact</div>      
+        <div class="topbar-item">Contact</div>      
         </div>
     </a>
     <div class="vr" style="width: 10px; z-index:10;"></div>
