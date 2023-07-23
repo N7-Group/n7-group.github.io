@@ -10,7 +10,10 @@ html,
 body {
     min-height: 100%;
 }
-
+.container, .container-styleless{
+    opacity: 0;
+    transition: opacity 2s;
+}
 h1,
 h3,
 h4,
@@ -135,6 +138,7 @@ nav a:hover {
 .header .header-red .container .container-styleless {
     max-width: 1200px;
     max-height: 600px;
+    opacity:1;
 }
 
 hr {
