@@ -13,6 +13,3 @@ fi
 
 echo "Starting server..."
 http-server -c
-
-# On Linux, the "pause" command is not needed, as the server runs until interrupted.
-
