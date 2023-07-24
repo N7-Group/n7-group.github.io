@@ -12,9 +12,31 @@ main>.container {
     margin-bottom: 20px;
     background-color: #ffffff;
 }
+.not-selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
 h3 {
     font-weight: 700;
+}
+
+.job-heading,
+.job-requirement
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.job-requirement
+{
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 50%;
 }
 .fade-in
 {
