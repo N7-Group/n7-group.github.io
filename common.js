@@ -1,20 +1,14 @@
 $(document).ready(() => {
-    $("nav").html(`
-    <!-- META STUFF (discord/twitter embeds, etc) -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Team Spettro">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Team Spettro">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://teamspettro.github.io">
-    <meta property="og:image" content="https://teamspettro.github.io/img/MonoBot%20Transparent.png">
-    <meta property="article:section" content="Home">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Team Spettro">
-    <meta name="twitter:description" content="Creators of Mono-Space">
-    <meta name="twitter:domain" content="teamspettro.github.io">
-    <meta name="theme-color" content="#f2f2f2">`);
+    $('head').append(`
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZF0R39DJ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6ZF0R39DJ7');
+</script>`);
 
     if (!$(".navbar").length && $("nav").length) {
         $("nav").addClass(["fixed-top", "d-flex", "nav-fixed"]);
@@ -59,13 +53,14 @@ $(document).ready(() => {
 `);
 
 
-    $(".search-trigger").on("click", () => {
-        console.log("search init")
-    })
+        $(".search-trigger").on("click", () => {
+            console.log("search init")
+        })
     }
     if (!$(".footer").length && $("footer").length) {
 
     }
+    
 });
 
 // $(window).scroll(() => !$(window).scrollTop() ? $("nav").removeClass("nav-fixed") : $("nav").addClass("nav-fixed"))
