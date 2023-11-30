@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).load(() => {
     $('head').append(`
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZF0R39DJ7"></script>
@@ -14,7 +14,7 @@ $(document).ready(() => {
     {
         $("nav").addClass(["fixed-top", "d-flex", "nav-fixed"]);
         // Load up header and all common elements
-        $("nav").load(`common_elements.html`);
+        $("nav").load(`/common_elements.html`);
 
 
         $(".search-trigger").on("click", () => {
