@@ -17,7 +17,7 @@ $(document).ready(() => {
     <a href="/">
         <div class="d-flex">
         <img src="/img/spettro-white.png" style="width:40px; height:40px">
-            <div style="color: #ffffff; font-family: Raleway;" class="align-self-center">Team Spettro </div>            
+            <div class="align-self-center teamspettro-logo">Team Spettro </div>            
         </div>
     </a>
 </div>
