@@ -15,7 +15,7 @@ $(document).ready(() => {
         $("nav").html(`
 <div class="brand">
     <a href="/">
-        <div class="d-flex">
+        <div class="d-flex teamspettro-button">
         <img src="/img/spettro-white.png" style="width:40px; height:40px">
             <div class="align-self-center teamspettro-logo">Team Spettro </div>            
         </div>

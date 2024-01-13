@@ -68,30 +68,36 @@ h3 {
     font-weight: 700;
     text-align: center;
 }
+
 .topbar-item
 {
     color: #ffffff72; 
     font-family: Raleway;
     font-weight: 450;
-    padding: 5px 0px 0px;
-    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;
+    padding: 5px 5px 5px;
+    border: solid 1px #00000000;
+    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s;
 }
 .topbar-item:hover
 {
-    color: #00bbff72; 
+    color: #00bbff; 
     font-family: Raleway;
     font-weight: 500;
-    scale: 105%;
-    padding: 5px 0px 0px;
-    transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;
-    text-shadow:1px 1px 10px #00bbff72;
+    padding: 5px 5px 5px;
+    border-spacing: 5px;
+    /* transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s;
+    text-shadow:1px 1px 10px #00bbff72; */
+    background: #116583;
+    border: solid 1px #00bbff;
+    border-radius: 5px;
+    box-shadow:1px 1px 10px #116583;
+
 }
 .topbar-item:active
 { 
     color: #00bbffff; 
     font-family: Raleway;
     font-weight: 510;
-    scale: 95%;
     padding: 5px 3px 0px;
     animation: blinker 0.05s linear infinite;
     transition: color 0.2s, scale 0.2s, padding 0.2s, font-weight 0.2s ;   
@@ -163,6 +169,55 @@ h3 {
     align-items: center;
 }
 
+.teamspettro-button
+{
+    border: solid 1px #00000000;
+    background-size: 0% 0%;
+    border-spacing: 5px;
+    transition: background-size 0.2s;
+}
+.teamspettro-button:hover
+{
+    transition: background 0.2s, background-size 0.2s;
+    border: solid 1px red;
+    border-radius: 5px;
+    box-shadow:1px 1px 10px #00bbff72;
+    background-size: 100% 100%;
+
+    animation: ts_logosel_anim 10s ease-in-out infinite;
+}
+
+@keyframes ts_logosel_anim {
+
+    0%,
+    100% {
+
+        background: #6666ff55;
+        border: solid 1px #6666ff;
+        box-shadow:1px 1px 10px #6666ff72;
+    }
+
+    25% {
+
+        background: #0099ff55;
+        border: solid 1px #0099ff;
+        box-shadow:1px 1px 10px #0099ff72;
+    }
+
+    50% {
+
+        background: #00ff0055;
+        border: solid 1px #00ff00;
+        box-shadow:1px 1px 10px #00ff0072;
+    }
+monospace
+    75% {
+
+        background: #ff339955;
+        border: solid 1px #ff3399;
+        box-shadow:1px 1px 10px #ff339972;
+    }
+}
 
 .image-view {
     opacity: 0;
@@ -290,6 +345,52 @@ div.desc {
     color: #ffffff;
     padding: 30px;
 
+}
+
+.ms_point_desctext, .ms_point_desctext_white
+{
+    font-family: Chakra Petch;
+    font-size:35px;
+}
+.ms_point_desctext_white
+{
+    color: #ffffff;
+}
+.ms_point_leftborder
+{
+    border-left:solid 5px gray;
+}
+.ms_point_bottomborder
+{
+    border-bottom:solid 5px gray;
+}
+.ms_point_titletext, .ms_point_titletext_white
+{
+    font-family: Chakra Petch;
+    font-weight: 900;
+    font-size: 55px; 
+}
+.ms_point_titletext_white
+{
+    color: #ffffff;
+}
+.ms_point_container_0, .ms_point_container_1, .ms_point_container_2, .ms_point_container_3 {
+    background: #f7f7f7;
+    color: #000;
+    padding: 30px;
+
+}
+.ms_point_container_1 {
+    background: #242424;    
+    color: #ffffff;
+}
+.ms_point_container_2 {
+    background: #d81919;    
+    color: #000000;
+}
+.ms_point_container_3 {
+    background: #19a8d8;    
+    color: #fff;
 }
 
 p {

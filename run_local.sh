@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Check if Node.js is installed
-if ! command -v node &>/dev/null; then
-  echo "Node.js is not installed. Please install Node.js first."
-  exit 1
-fi
+# # Check if Node.js is installed
+# if ! command -v node &>/dev/null; then
+  # echo "Node.js is not installed. Please install Node.js first."
+  # exit 1
+# fi
 
 # Install http-server if not installed
 if ! command -v http-server &>/dev/null; then
