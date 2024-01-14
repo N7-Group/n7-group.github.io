@@ -98,7 +98,19 @@ h3 {
     box-shadow: 1px 1px 10px #116583;
 
 }
-
+mark
+{
+    font-weight: 900;
+    font-family: Chakra Petch;
+    SCALE: none;
+    padding: 5px;
+    background: #11658372;
+    border: solid 1px #00bbff;
+    border-radius: 5px;
+    border-spacing: 5px;
+    box-shadow: 1px 1px 10px #116583;
+    animation: ts_logosel_anim 10s ease-in-out infinite;
+}
 .topbar-item:active {
     color: #00bbffff;
     font-family: Raleway;
@@ -433,18 +445,11 @@ h2 {
 }
 
 
-b, .bold-rainbow 
+b 
 {  
     font-weight: 900;
     font-family: Chakra Petch;
-    SCALE: none;
-    padding: 5px;
-    background: #11658372;
-    border: solid 1px #00bbff;
-    border-radius: 5px;
-    border-spacing: 5px;
-    box-shadow: 1px 1px 10px #116583;
-    animation: ts_logosel_anim 10s ease-in-out infinite;
+    
 }
 
 .header h1 {
