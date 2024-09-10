@@ -42,14 +42,7 @@ $(document).ready(() => {
     <div class="vr" style="width: 10px; z-index:10;"></div>
 </div>
 <div class="vr" style="width: 10px; z-index:10;"></div>
-<div>
-    <a href="/hiring">
-        <div class="d-flex">
-        <div class="topbar-item">Join us</div>      
-        </div>
-    </a>
-    <div class="vr" style="width: 10px; z-index:10;"></div>
-</div>
+
 `);
 
 
